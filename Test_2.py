@@ -35,10 +35,10 @@ def test_autocomplete():
             print('---- Pass')
         else:
             print('---- Fail')
-        driver.close()
     except:
         print('Test 2: Fail')
         return(select)
     
     driver.close()
+    
 test_autocomplete()
